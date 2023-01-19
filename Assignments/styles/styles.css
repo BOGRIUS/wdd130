@@ -1,8 +1,58 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+body {
+    background-color: pink;
 }
-#active {
-    background-color: white;
-    color: red;
+nav{
+    font-size: 200%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-heading {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-heading:hover {
+    background-color: pink;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.quote-paragraph{
+    color: white;
+    text-align: center;
+}
+.list{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bold;
+    margin:0% auto;
+    text-align: center;
+}
+.nelson-img {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.second-quote-h2 {
+    width: 50%;
+    color: white;
+    margin:0% auto;
+    text-align: center;
+    font-family: sans-serif
+}
+.name {
+    font-size: 80%;
+    text-align: center
+}
+.calling {
+    font-size: 80%;
+    text-align: center
 }
