@@ -79,7 +79,7 @@ h4 {
 .msg p {
     color: #F9F4F5;
     font-size: 2em;
-
+    padding-bottom: 15px;
     
 }
 footer a:hover {
@@ -114,8 +114,5 @@ footer .social img {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid black;
-}
-main section img {
-    
+    border: 10px solid #30321C;
 }
