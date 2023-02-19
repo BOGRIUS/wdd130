@@ -2,30 +2,30 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=PT+Sans&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&family=PT+Sans&family=Roboto+Condensed:wght@300&family=Trocchi&display=swap');
 
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #1B2F33   ;
-  --secondary-color: #CEFDFF ;
-  --accent1-color: #F75C03;
-  --accent2-color: #141519;
+  --primary-color: #053225   ;
+  --secondary-color: #FFFFFF ;
+  --accent1-color: #F2545B;
+  --accent2-color: #252627;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Open Sans";
-  --paragraph-font: PT Sans;
+  --heading-font: "Libre Baskerville";
+  --paragraph-font: "Trocchi";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #1B2F33;  /* headlines on a white background */ 
-  --headline-color-on-color: #CEFDFF; /* headlines on a colored background */ 
+  --headline-color-on-white: #053225;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFFFFF ; /* headlines on a colored background */ 
   --paragraph-color-on-white: #1B2F33; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #1B2F33  ;
-  --nav-link-color: #A0FC81;
-  --nav-background-color: #1B2F33;
-  --nav-hover-link-color: #141519;
-  --nav-hover-background-color: #CEFDFF;
+  --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #252627;
+  --nav-link-color: #FFFFFF ;
+  --nav-background-color: #252627;
+  --nav-hover-link-color: #FFFFFF;
+  --nav-hover-background-color: #F2545B;
 }
 
 
