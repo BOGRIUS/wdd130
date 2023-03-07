@@ -126,7 +126,8 @@ footer .social img {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto auto auto auto auto;
+
 }
 nav {
     display: flex;
@@ -136,13 +137,21 @@ nav {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    
+
+}
+header a img {
+    width: 125px;
+}
+header {
+    font-size: 28px;
 }
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
 }
-hero-box {
+#hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -231,4 +240,101 @@ card-img, .mountains {
     footer {
         margin-top: 25px;
     }
+}
+
+#rivers2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.glacier {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.san-juan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.everglades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.colorado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.gauley {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.snake {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #001F54;
+    color: #F9F4F5;
+    border-radius: 1%;
+    border: 1px solid #F9F4F5;
+}
+.river1 {
+    width: 225px;
+    height: 150px;
+}
+.river2 {
+    width: 300px;
+    height: 150px;
+}
+.river3 {
+    width: 300px;
+    height: 150px;
+}
+.river4 {
+    width: 300px;
+    height: 150px;
+}
+.river5 {
+    width: 300px;
+    height: 150px;
+}
+.river6 {
+    width: 300px;
+    height: 150px;
 }
