@@ -1,11 +1,31 @@
 /*header*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Nunito:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
+}
+footer {
+    background-color: #1B2F33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+footer img {
+    height: 55px;
+}
+.name {
+        font-size: 700;
+    color: #CEFDFF;
+    text-decoration: none;
+}
+.name:hover {
+    color: #007bff;
+        transform: scale(1.1);
 }
 header {
     background-color: #1B2F33;
@@ -60,11 +80,11 @@ header .btn button:hover {
     transform: scale(1.1);
 }
 
-.banner {
+.banner1 {
     position: relative;
     margin: 0 auto;
 }
-.banner img {
+.banner1 img {
     width: 100%;
 }
 
@@ -87,3 +107,53 @@ header .btn button:hover {
     color: #1B2F33;
     transform: scale(1.1);
 }
+
+.div1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.div1 p {
+    background-image: linear-gradient(#1b2f33, #2a4858);
+    color: white;
+    padding: 10px;
+}
+.div2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.div2 p {
+    background-image: linear-gradient(#1b2f33, #2a4858);
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+h1 {
+    font-family: "league spartan";
+    font-size: 60px;
+    text-align: center;
+        margin-left: 60px;
+    margin-right: 60px;
+}
+p {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 50px;
+}
+img {
+    border-radius: 50px;
+}
+
